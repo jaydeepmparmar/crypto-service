@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 public class Currency {
-    private String symbol;
+    private CurrencySymbol symbol;
     private Double price;
     private Double change;
     private Long volume;
